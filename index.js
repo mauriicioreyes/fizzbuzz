@@ -5,4 +5,5 @@ const explorers = Reader.readJsonFile("./explorers.json") // retorna la lista de
 const ExplorerService = require('./lib/services/ExplorerService')
 
 // console.log(ExplorerService.filterByMission(explorers, "node"))
-console.log(ExplorerService.getAmountOfExplorersByMission(explorers, "node"))
+// console.log(ExplorerService.getAmountOfExplorersByMission(explorers, "node"))
+console.log(ExplorerService.getExplorersUsernamesByMission(explorers, "node"))
